@@ -1,6 +1,6 @@
 {
   "name": "monadical-react-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Private, in-house react components.",
   "main": "main.js",
   "repository": "https://github.com/Monadical-SAS/react-components",
