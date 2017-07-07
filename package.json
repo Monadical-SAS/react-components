@@ -1,0 +1,12 @@
+{
+  "name": "monadical-react-components",
+  "version": "0.0.1",
+  "description": "Private, in-house react components.",
+  "main": "main.js",
+  "repository": "https://github.com/Monadical-SAS/react-components",
+  "author": "Nick Sweeting <git@nicksweeting.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1"
+  }
+}
