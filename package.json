@@ -2,33 +2,22 @@
   "name": "monadical-react-components",
   "version": "0.0.4",
   "description": "Private, in-house react components.",
-  "main": "src/main.js",
-  "repository": "https://github.com/Monadical-SAS/react-components",
   "author": "Nick Sweeting <git@nicksweeting.com>",
   "license": "MIT",
+
+  "homepage": "https://github.com/Monadical-SAS/react-components/",
+  "bugs": {
+    "url": "https://github.com/Monadical-SAS/react-components/issues",
+    "email": "react-components-bugs@monadical.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Monadical-SAS/react-components.git"
+  },
+
+  "main": "src/main.js",
   "dependencies": {
     "react": "^15.6.1"
-  },
-  "browserify": {
-    "transform": [
-      "babelify",
-      "aliasify"
-    ]
-  },
-  "babel": {
-    "presets": [
-      "react",
-      "es2015",
-      "stage-2"
-    ],
-    "plugins": [
-      "syntax-function-bind",
-      "transform-function-bind",
-      "transform-react-inline-elements",
-      "transform-react-constant-elements",
-      "transform-runtime",
-      "transform-flow-strip-types"
-    ]
   },
   "devDependencies": {
     "aliasify": "^2.1.0",
@@ -54,5 +43,26 @@
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.5.4",
     "watchify": "^3.9.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify",
+      "aliasify"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015",
+      "stage-2"
+    ],
+    "plugins": [
+      "syntax-function-bind",
+      "transform-function-bind",
+      "transform-react-inline-elements",
+      "transform-react-constant-elements",
+      "transform-runtime",
+      "transform-flow-strip-types"
+    ]
   }
 }
