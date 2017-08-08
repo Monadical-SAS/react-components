@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Monadical-SAS/react-components.git"
   },
-  "main": "src/main.js",
+  "main": "node/main.js",
   "dependencies": {
     "react": "^15.6.1"
   },
@@ -62,5 +62,8 @@
       "transform-runtime",
       "transform-flow-strip-types"
     ]
+  },
+  "scripts": {
+    "build": "./scripts/build.sh"
   }
 }

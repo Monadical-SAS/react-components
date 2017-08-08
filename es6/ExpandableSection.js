@@ -4,7 +4,7 @@ import React from 'react'
 export class ExpandableSection extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {expanded: props.expanded}
+        this.state = {expanded: props.expanded === undefined ? true : props.expanded}
     }
     toggleSection() {
         this.setState({expanded: !this.state.expanded})
